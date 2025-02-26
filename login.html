@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meesho Signup</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f8f8f8;
+        }
+        .signup-container {
+            background: white;
+            width: 320px;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+            color: #822b68;
+        }
+        .signup-title {
+            font-size: 18px;
+            font-weight: bold;
+            margin: 15px 0;
+        }
+        .input-group {
+            text-align: left;
+            margin-bottom: 15px;
+        }
+        label {
+            font-size: 14px;
+            font-weight: bold;
+        }
+        .phone-input {
+            width: calc(100% - 20px);
+            padding: 10px;
+            margin-top: 5px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .continue-btn {
+            width: 100%;
+            padding: 10px;
+            background-color: #a6207a;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        .continue-btn:hover {
+            background-color: #8a1b66;
+        }
+        .terms {
+            font-size: 12px;
+            margin-top: 10px;
+            color: gray;
+        }
+        .terms a {
+            color: #a6207a;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="signup-container">
+        <div class="logo">meesho</div>
+        <div class="signup-title">Sign Up</div>
+        <div class="input-group">
+            <label>Country</label><br>
+            <input type="text" value="IN +91" class="phone-input" disabled>
+        </div>
+        <div class="input-group">
+            <input type="text" placeholder="Phone Number" class="phone-input">
+        </div>
+        <button class="continue-btn">Continue</button>
+        <p class="terms">By continuing, you agree to Meesho’s <a href="#">Terms & Conditions</a> and <a href="#">Privacy Policy</a></p>
+    </div>
+</body>
+</html>
